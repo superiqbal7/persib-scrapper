@@ -1,0 +1,18 @@
+### Get all posts
+GET https://localhost:5000/posts
+
+
+### Create a new post
+POST https://localhost:5000/posts
+Content-Type: application/json
+
+{
+  "title": "Test Post",
+  "body": "This is a test post"
+};
+
+
+### Get a particular post
+GET https://localhost:5000/post/6404e6b73672982ebc23f7c7
+
+

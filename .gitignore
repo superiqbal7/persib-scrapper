@@ -1,0 +1,9 @@
+# misc
+.DS_Store
+data
+
+# Node and related ecosystem
+/node_modules
+.env
+
+
